@@ -1,0 +1,3 @@
+https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css
+https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js
+Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatem quibusdam expedita sapiente blanditiis aliquam ipsum? Rem inventore magni quasi et nesciunt omnis.

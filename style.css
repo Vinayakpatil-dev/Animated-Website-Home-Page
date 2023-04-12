@@ -1,0 +1,157 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height:100%;
+    width:100%;
+}
+
+#con1{
+    height:100%;
+    width:40%;
+    background-color: rgb(41,41,41);
+    position: absolute;
+    top:0;
+    right:0;
+}
+
+#con2{
+    height:100%;
+    width:40%;
+    background-color: rgb(41,41,41);
+    position: absolute;
+    top:0;
+    right:0;
+}
+
+#con2 .ri-menu-line{
+    color:white;
+    font-size: 20px;
+    position: absolute;
+    top:40px;
+    right:36px;
+    cursor: pointer;
+}
+
+#con2 #Links2{
+    width:150px;
+    position: relative;
+    top:640px;
+    left:330px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#con2 #Links2 i{
+    color:white;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+#imgcont{
+    width:470px;
+    height:350px;
+    background-image: url('image.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    top:50%;
+    transform: translateY(-50%);
+    left:570px;
+}
+
+nav{
+    width:80%;
+    height:90px;
+    position: absolute;
+    top:11px;
+    left:0px;
+    display: flex;
+    align-items: center;
+}
+
+nav #logo{
+    margin-left:35px;
+    display: flex;
+}
+
+nav #logo h2{
+    font-family: montserrat;
+}
+
+nav #logo h2:nth-child(1){
+    color:rgb(27,27,27);
+}
+
+nav #logo h2:nth-child(2){
+    color:rgb(17,121,107);
+}
+
+nav #Links1{
+    position: relative;
+    left:220px;
+}
+
+nav #Links1 a{
+    text-decoration: none;
+    color:rgb(58,58,58);
+    font-family: poppins;
+    font-size: 15px;
+    font-weight: 500;
+    margin-left:80px
+}
+
+#number{
+    font-size: 210px;
+    color:rgba(61,61,61,.137);
+    position: absolute;
+    top:160px;
+    left:120px;
+}
+
+#mem{
+    font-size: 53px;
+    letter-spacing: 2px;
+    font-family: montserrat;
+    position: absolute;
+    top:320px;
+    left:120px;
+}
+
+p{
+    position: absolute;
+    top:420px;
+    left:120px;
+    text-align: left;
+    width:420px;
+    font-size: 15px;
+    font-family: montserrat;
+    font-weight: 500;
+}
+
+.ri-arrow-down-circle-line{
+    position: absolute;
+    bottom:30px;
+    left:700px;
+    font-size: 27px;
+    color:rgb(71,71,71);
+}
+
+h3{
+    letter-spacing: 18px;
+    font-family: montserrat;
+    font-size: 12px;
+    color:rgba(71,71,71,.0.459);
+}
+
+#rotate{
+    position: absolute;
+    top:54%;
+    left:-218px;
+    transform: translateY(-50%) rotate(-90deg);
+}
